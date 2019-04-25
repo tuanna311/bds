@@ -1,0 +1,42 @@
+.gb-noithattaichinh_datxanhmienbac{
+  .gb-noithattaichinh_datxanhmienbac-item{
+    .gb-noithattaichinh_datxanhmienbac-item-img{
+      img{
+        width: 100%;
+        height: 300px;
+      }
+    }
+    .gb-noithattaichinh_datxanhmienbac-item-text{
+      padding: 40px 50px 20px !important;
+      text-align: center;
+      h3{
+        a{
+          color: $color-white;
+          margin: 20px 0;
+          font-size: 30px;
+        }
+      }
+      p{
+        color: $color-white;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px 0;
+      }
+      .btn-xemthem{
+        a{
+          display: inline-block;
+          color: $color-white;
+          border: 1px solid $color-white;
+          padding: 10px 20px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .gb-taichinh_datxanhmienbac{
+    background: $color-main;
+  }
+  .gb-noithat_datxanhmienbac{
+    background: $color-main1;
+  }
+}

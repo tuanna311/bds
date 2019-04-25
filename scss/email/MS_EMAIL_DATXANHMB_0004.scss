@@ -1,0 +1,33 @@
+.gb-home-dangkytuvan{
+  padding: 100px 0;
+  .gb-ico-title{
+    h2{
+      color: $color-white;
+    }
+    p{
+      color: $color-white;
+    }
+  }
+  ul{
+    text-align: center;
+    li{
+      display:  inline-block;
+      margin-right: 10px;
+      a{
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        display:  block;
+        padding: 15px 20px;
+        border: 2px solid $color-white;
+        color: $color-white;
+        transition:  all 0.5s;
+        &:hover{
+          background: $color-main;
+          border-color: $color-main
+        ;
+        }
+      }
+    }
+  }
+}

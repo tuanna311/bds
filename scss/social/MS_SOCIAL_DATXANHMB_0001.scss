@@ -1,0 +1,16 @@
+.list_social{
+  text-align: left;
+  li{
+    display: inline-block;
+    a{
+      width: 40px;
+      height: 40px;
+      border: 2px solid $color-white;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-white;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,91 @@
+/*TOP HEADER*/
+.gb-content{
+  overflow: hidden;
+}
+.is-sticky{
+  position: relative;
+  width: 100%;
+  z-index: 9999;
+  .gb-header{
+    background: $color-white;
+    .gb-main-menu .cssmenu > ul > li > a{
+      color: $color-1;
+    }
+  }
+  .gb-header-between{
+    background: $color-white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.39);
+  }
+  @media screen and (max-width: 991px) {
+    visibility:  hidden;
+  }
+}
+.sticky-wrapper{
+  width: 100%;
+  position: relative;
+  @media screen and (max-width: 991px) {
+    position: relative !important;
+    height: 99px !important;
+  }
+}
+
+.gb-header_datxanhmienbac{
+  background: $color-main;
+  padding: 0 100px;
+  display: flex;
+  @media screen and (max-width: 1130px) {
+    padding: 0 20px;
+  }
+  .gb-header-logo_datxanhmienbac{
+    width: 200px;
+    float: left;
+    background: $color-white;
+    text-align: center;
+    h1{
+      a{
+        img{
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  .gb-header-menu_datxanhmienbac{
+    width: calc(100% - 200px - 100px);
+    float:  left;
+  }
+  .gb-header-social_datxanhmienbac{
+    width: 100px;
+    float: right;
+    ul{
+      padding-top: 10px;
+    }
+    @media screen and (max-width: 991px) {
+      display:  none;
+    }
+  }
+}
+
+.gb-header-social_datxanhmienbac{
+  ul{
+    li{
+      display:  inline-block;
+      a{
+        color: $color-white;
+        width: 40px;
+        height: 40px;
+        border: 1px solid $color-main1;
+        background: $color-main1;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition:  all 0.5s;
+        &:hover{
+          border-color: $color-white;
+          background:  $color-main;
+
+        }
+      }
+    }
+  }
+}

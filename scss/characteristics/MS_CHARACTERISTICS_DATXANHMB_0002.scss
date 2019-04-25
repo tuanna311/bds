@@ -1,0 +1,25 @@
+.gb-home-couter-up{
+  .gb-home-couter-up-item{
+    border: 2px solid $color-border;
+    padding: 20px 0;
+    @media screen and (max-width: 991px) {
+      margin-bottom: 30px;
+    }
+    p{
+      font-size: 36px;
+      color: $color-main;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    span{
+      font-size: 16px;
+      color: $color-grey;
+      display: block;
+      text-align: center;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+    }
+  }
+}

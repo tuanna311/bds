@@ -1,0 +1,91 @@
+.gb-duanchothuenoibat_datxanhmienbac{
+  padding: 50px 0;
+  .dx_heading_1_datxanhmienbac{
+    text-align: center;
+    margin-bottom: 40px;
+    .dx_heading_p_datxanhmienbac{
+      color: $color-main;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 16px;
+      letter-spacing: .2px;
+      line-height: 24px;
+      color: $color-1;
+      margin-top: 10px;
+      strong{
+        font-size: 30px;
+        color: $color-main1;
+      }
+    }
+  }
+}
+.gb-duanchothuenoibat_datxanhmienbac-item{
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  &:hover{
+    .gb-duanchothuenoibat_datxanhmienbac-item_des{
+      opacity: 0;
+      bottom: -50px
+    }
+    .gb-duanchothuenoibat_datxanhmienbac-item_recent_property_des{
+      bottom: 0%;
+      opacity: 1;
+    }
+  }
+  &:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .gb-duanchothuenoibat_datxanhmienbac-item-img{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .gb-duanchothuenoibat_datxanhmienbac-item_des{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    h3{
+      color: $color-white;
+      font-weight: 600;
+      margin: 0 0 5px;
+      font-size: 20px;
+    }
+  }
+  .gb-duanchothuenoibat_datxanhmienbac-item_recent_property_des{
+    position: absolute;
+    bottom: -72%;
+    left: 0;
+    z-index: 10;
+    padding: 20px 20px;
+    opacity: 0;
+    h3{
+      font-weight: bold;
+      color: #fff;
+      margin: 0 0 20px;
+      font-size: 20px;
+      a{
+        color: $color-white;
+      }
+    }
+    p{
+      color: $color-white;
+      margin: 0 0 20px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: justify;
+    }
+  }
+}

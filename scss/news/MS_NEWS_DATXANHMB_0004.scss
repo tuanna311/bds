@@ -1,0 +1,129 @@
+.gb-tintuc{
+  padding: 50px 0;
+}
+.gb-tintuc-page-item{
+  margin-bottom: 30px;
+  display: flex;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  .entry-img{
+    width: 300px;
+    float: left;
+    overflow:  hidden;
+    @media screen and (max-width: 767px) {
+      height:  auto;
+    }
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+    img{
+      width: 100%;
+      height: auto;
+      transition:  all 0.5s;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+  .entry-content{
+    width: calc(100% - 300px);
+    float: left;
+    padding-left: 20px;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  .entry-date{
+    margin: 15px 0;
+    font-size: 16px;
+    color: $color-grey;
+    i{
+      color: $color-main;
+    }
+  }
+  .entry-tile{
+    h3{
+      a{
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-1;
+        font-weight: 600;
+        transition:  all 0.5s;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        &:hover{
+          color: $color-main;
+        }
+      }
+    }
+  }
+  .entry-excerpt{
+    p{
+      font-size: 14px;
+      line-height: 22px;
+      text-align: justify;
+      color: $color-grey;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+  }
+  .entry-btn-xemthem{
+    margin-top: 15px;
+    a{
+      display:  inline-block;
+      border: 1px solid $color-main;
+      background: $color-main;
+      padding: 10px 20px;
+      color: $color-white;
+      transition:  all 0.5s;
+      &:hover{
+        background: transparent;
+        color: $color-main;
+      }
+    }
+  }
+}
+
+/*LIEN HỆ nha in*/
+.gb-contac-header_nhainvn{
+  padding: 50px 0;
+  .gb-contac-header_nhainvn-item{
+    display:  flow-root;
+    .icons{
+      float:  left;
+      width: 35px;
+      font-size: 40px;
+      font-weight: 600;
+      color: rgb(29, 91, 94);
+    }
+    p{
+      width: calc(100% - 35px);
+      float: left;
+      padding-left: 20px;
+      text-align: left;
+      color: rgb(53, 167, 172);
+      line-height: 1.2;
+      letter-spacing: 0;
+      font-size: 15px;
+    }
+  }
+  .gb-contac-header_nhainvn-social{
+    padding-top: 20px;
+    ul{
+      li{
+        display:  inline-block;
+        margin-right: 10px;
+        a{
+          display:  block;
+          color: rgb(29, 91, 94);
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

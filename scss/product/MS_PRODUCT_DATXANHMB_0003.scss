@@ -1,0 +1,247 @@
+.gb-chitiet-duan_datxanhmienbac{
+
+}
+.gb-duan-title_datxanhmienbac{
+  h3{
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $color-main;
+  }
+}
+.gb-chitiet-duan-body_datxanhmienbac{
+  padding: 50px 0;
+  .slider-for{
+    background: $color-white;
+    border: 1px solid $color-border;
+    @media screen and (min-width: 992px) {
+      height: 424px;
+      overflow: hidden;
+    }
+    img{
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+  .slide-item-nav{
+    border: 1px solid $color-border;
+    margin: 0 5px;
+    background: #f1f1f1;
+  }
+  .slider-nav{
+    margin-top: 10px;
+    .slide-item-nav{
+      background: $color-white;
+    }
+  }
+  .gb-chitiet-duan-body-top_datxanhmienbac{
+    background-color: #EEE;
+    .gb-chitiet-duan-body-top-left_datxanhmienbac{
+      .gb-chitiet-duan-body-top-left-img_datxanhmienbac{
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-position: center center;
+      }
+    }
+    .gb-chitiet-duan-body-top-right_datxanhmienbac{
+      padding: 30px 30px 30px 0;
+      h3{
+        font-weight: 700;
+      }
+      p{
+        margin-top: 10px;
+        span{
+          color: #eb0b00;
+          padding-left: 10px;
+        }
+      }
+      .gb-line{
+        box-sizing: border-box;
+        height: 1px;
+        border-bottom: 2px solid $color-main;
+        margin: 15px 0;
+      }
+      ul{
+        li{
+          line-height: 28px;
+          span{
+            color: $color-main;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+.gb-chitiet_duan-landingpage-nav_datxanhmienbac{
+  ul{
+    background-color: $color-main;
+    li{
+      display: inline-block;
+      a{
+        display: block;
+        font-weight: 700;
+        color: #fff;
+        padding: 20px 10px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.gb-chitiet_duan-chinhsach_datxanhmienbac{
+  background-color: #fffaf3;
+  border: 2px dashed #f0ad4e;
+  padding: 20px;
+  border-radius: 5px;
+  ul{
+    li{
+      line-height: 28px;
+      color: #777;
+      position: relative;
+      padding-left: 15px;
+      &:before{
+        content: '.';
+        position: absolute;
+        font-size: 36px;
+        top: -12px;
+        left: 0;
+      }
+      span{
+        font-weight: 700;
+        color: $color-main !important;
+      }
+    }
+  }
+}
+.gb-chitiet_duan-landingpage_datxanhmienbac{
+  padding-top: 50px;
+}
+
+.gb-chitiet_duan-landingpage-body_datxanhmienbac{
+  padding: 50px 0;
+}
+
+.gb-chitiet_duan-landingpage-left_datxanhmienbac{
+  ul{
+    li{
+      line-height: 28px;
+      position: relative;
+      padding-left: 15px;
+      &:before{
+        content: '.';
+        position: absolute;
+        font-size: 36px;
+        top: -12px;
+        left: 0;
+      }
+      span{
+        font-weight: 700;
+      }
+    }
+  }
+  p{
+    line-height: 1.6180em;
+  }
+  h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000080;
+    line-height: 1.1;
+    margin: 20px 0 10px;
+  }
+}
+
+.gb-chitiet_duan-landingpage-right_datxanhmienbac{
+  background: #f1f1f1;
+  padding: 20px;
+  h4{
+    background-color: $color-main;
+    padding: 15px;
+    letter-spacing: 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  ul{
+    margin-bottom: 10px;
+    li{
+      line-height: 1.6180em;
+      font-size: 14px;
+    }
+  }
+  label{
+    color: $color-main;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .btn-taibanggia{
+    width: 100%;
+    background: $color-main;
+    color: #fff;
+  }
+  p{
+    margin: 10px 0;
+    span{
+      color: $color-main;
+      padding-right: 10px;
+    }
+    &.phone-contact{
+      font-size: 22px;
+      font-weight: 700;
+      color: #ED8D00;
+    }
+    &.mail-contact{
+      color: #109CFF;
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+}
+
+/*TIN TỨC*/
+.gb-chitiet_duan-tintuc_datxanhmienbac{
+  border-top: 1px dashed #ccc;
+  margin-top: 50px;
+  .gb-duan-title{
+    h3{
+      font-size: 28px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: $color-main;
+    }
+  }
+
+  .gb-chitiet_duan-tintuc-item_datxanhmienbac{
+    display: flex;
+    .item-img{
+      width: 100px;
+      float: left;
+    }
+    .item-text{
+      padding-left: 20px;
+      h4{
+        a{
+          color: #333;
+          font-size: 14px;
+          transition: all 0.5s;
+          &:hover{
+            color: $color-main;
+          }
+        }
+      }
+      .date{
+        display: block;
+        margin-top: 5px;
+        font-size: 14px;
+        color: #eb0b00;
+      }
+    }
+  }
+}

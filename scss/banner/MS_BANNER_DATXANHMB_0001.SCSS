@@ -1,0 +1,71 @@
+.gb-banner-1-home_datxanhmienbac{
+  img{
+    width: 100%;
+    height: 327px;
+  }
+}
+
+/*QUYỀN LỢI KHÁCH HÀNG*/
+.gb-quyenloikhachhang_vyhofoco{
+  .titleCategoryProduct_vyhofoco{
+    text-align: center;
+    margin-bottom: 30px;
+    h4{
+      font-size: 30px;
+      color: #333;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    p{
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-top: 20px;
+      color: #a2a2a2;
+      line-height: 22px;
+    }
+  }
+
+  .gb-quyenloikhachhang_vyhofoco-item{
+    .item-img{
+      margin-bottom: 15px;
+      img{
+        margin: auto;
+      }
+    }
+    .item-text{
+      text-align: center;
+      h2{
+        font-style: normal;
+        font-weight: 400;
+        color: #232423;
+        font-size: 18px;
+      }
+      p{
+        font-size: 14px;
+        color: #a2a2a2;
+        line-height: 24px;
+        text-align: center;
+        margin: 10px 0;
+      }
+      a{
+
+        display: inline-block;
+        min-width: 150px;
+        border: 2px solid #D66D04;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 14px;
+        color: #D66D04;
+        border-radius: 30px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        &:hover{
+          color: #fff;
+          background: #D66D04;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.footer-about-list{
+  li{
+    font-size: 14px;
+    line-height: 25px;
+    color: $color-white;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    a{
+      font-size: 14px;
+      line-height: 25px;
+      color: $color-white;
+    }
+    i{
+      font-size: 20px;
+      color: $color-white;
+      position: absolute;
+      left: 0;
+    }
+  }
+}

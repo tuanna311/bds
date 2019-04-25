@@ -1,0 +1,54 @@
+.gb-duan-vinhomes_datxanhmienbac{
+  padding: 50px 0;
+  background: #f1f1f1;
+  .dx_heading_1_datxanhmienbac{
+    text-align: center;
+    margin-bottom: 40px;
+    .dx_heading_p_datxanhmienbac{
+      color: $color-main;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 16px;
+      letter-spacing: .2px;
+      line-height: 24px;
+      color: $color-1;
+      margin-top: 10px;
+      strong{
+        font-size: 30px;
+        color: $color-main1;
+      }
+    }
+  }
+}
+.gb-duan-vinhomes_datxanhmienbac-item{
+  background: $color-white;
+  padding: 10px;
+  .gb-duan-vinhomes_datxanhmienbac-item-img{
+    img{
+      width: 100%;
+      height: 150px;
+    }
+  }
+  .gb-duan-vinhomes_datxanhmienbac-item-text{
+    padding:10px 0 20px 0;
+    h2{
+      a{
+        font-size: 14px;
+        color: $color-main;
+        line-height: 22px;
+        font-weight: 600;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+      }
+    }
+    p{
+      font-size: 14px;
+      color: $color-grey;
+      margin-top: 5px;
+    }
+  }
+}

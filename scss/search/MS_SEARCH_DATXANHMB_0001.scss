@@ -1,0 +1,33 @@
+/* search */
+.box_search_pc{
+  position: relative;
+  display: flex;
+  padding: 5px 0;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+  input{
+    padding: 12px 10px;
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid $color-white;
+    transition: all 0.3s;
+    width: 100%;
+    &:focus{
+      width: 100%;
+      transition: all 0.3s;
+      border-color: #e32a31;
+    }
+  }
+  button{
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 13px 7px;
+    background: #fff;
+    color: #e32a31;
+    border: none;
+    outline: none;
+  }
+}

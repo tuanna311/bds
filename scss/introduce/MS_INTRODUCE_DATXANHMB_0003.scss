@@ -1,0 +1,343 @@
+.gb-page-gioithieu_datxanhmienbac{
+  .gb_heading_1{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    h2{
+      text-transform: uppercase;
+      color: #015ea7;
+      font-size: 30px;
+    }
+  }
+  .gb-page-gioithieu_datxanhmienbac-img{
+    img{
+      width: 100%;
+      height:  auto;
+    }
+  }
+  .gb-page-gioithieu-header_datxanhmienbac{
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    ul{
+      li{
+        display: inline-block;
+        a{
+          display: block;
+          padding: 5px 10px !important;
+          color: #787878;
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .gb-page-gioithieu_datxanhmienbac-motachung{
+    margin-top: 70px;
+    .gb-page-gioithieu_datxanhmienbac-motachung-left{
+      margin-top: 50px;
+      h6{
+        text-align: justify;
+        margin-bottom: 20px;
+        color: #105ea8;
+        line-height: 24px;
+      }
+      p{
+        letter-spacing: .2px;
+        line-height: 24px;
+        color: #48494b;
+        font-size: 14px;
+        text-align: justify;
+      }
+    }
+    .gb-page-gioithieu_datxanhmienbac-motachung-right{
+      .gb_heading_1{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        h2{
+          text-transform: uppercase;
+          color: #015ea7;
+          font-size: 30px;
+        }
+      }
+      .gb_introduction_general{
+        p{
+          text-align: center;
+          width: 100%;
+          height: 120px;
+          color: #ffffff;
+          padding: 20px;
+          line-height: 24px;
+          font-size: 14px;
+          margin-bottom: 10px;
+          strong{
+            font-weight:  bold;
+          }
+        }
+      }
+    }
+  }
+
+  .gb-hanhtrinh-nguoitienphong_datxanhmienbac{
+    .gb_heading_1{
+      width: 100%;
+      text-align: center;
+      margin: 20px 0;
+      h2{
+        text-transform: uppercase;
+        color: #015ea7;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0;
+      }
+      p{
+        letter-spacing: .2px;
+        line-height: 24px;
+        color: #48494b;
+        font-size: 16px;
+        span{
+          color: #c4c4c4;
+        }
+      }
+    }
+  }
+  .about_journey_list{
+    h6{
+      margin-bottom: 5px;
+      color: #4d4d4d;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+    p{
+      font-size: 14px;
+      line-height: 24px;
+      color: #ffffff;
+      padding: 20px;
+    }
+  }
+  .gb_about_journey_text{
+    h6{
+      text-align: justify;
+      margin-bottom: 20px;
+      color: #105ea8;
+      line-height: 24px;
+    }
+    p{
+      letter-spacing: .2px;
+      line-height: 24px;
+      color: #48494b;
+      font-size: 14px;
+      text-align: justify;
+    }
+  }
+
+  /*GIẢI PHÁP ĐỒNG BỘ VÀ KHÁT VỌNG VƯƠN XA*/
+  .gb_about_solution{
+    .gb_heading_1{
+      width: 100%;
+      text-align: center;
+      margin: 20px 0;
+      h2{
+        text-transform: uppercase;
+        color: #015ea7;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2;
+      }
+    }
+    .gb_about_solution_content{
+      .accordion-default{
+        border: 1px solid #E0E0E0;
+        .accordion-content {
+          display: none;
+          margin: 0 20px;
+          border-top: 1px solid #E0E0E0;
+          padding: 20px 0;
+          p{
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.86;
+            letter-spacing: normal;
+            text-align: left;
+            color: #666666;
+          }
+        }
+        .accordion-toggle {
+          position: relative;
+          cursor: pointer;
+          margin: 0;
+          padding: 20px;
+          padding-left: 65px;
+          font-size: 14px;
+          line-height: 24px;
+        }
+        .accordion-toggle.active:after{
+          content:"\f068";
+          position: absolute;
+          left: 20px;
+          top: 15px;
+          font-size: 14px;
+          font-family: FontAwesome;
+          color: #fff;
+          font-weight: normal;
+          width: 30px;
+          height: 30px;
+          border: 1px solid;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: $color-main;
+          border-radius: 3px;
+        }
+        .accordion-toggle:before{
+          content: "\f067";
+          position: absolute;
+          left: 20px;
+          top: 15px;
+          font-size: 14px;
+          font-weight: normal;
+          font-family: FontAwesome;
+          color: #fff;
+          width: 30px;
+          height: 30px;
+          border: 1px solid;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: $color-main;
+          border-radius: 3px;
+        }
+      }
+      .gb_about_journey_text{
+        p{
+          letter-spacing: .2px;
+          line-height: 24px;
+          color: #48494b;
+          font-size: 14px;
+          text-align: justify;
+        }
+      }
+      .gb_about_journey_img{
+        text-align: center;
+        p{
+          letter-spacing: .2px;
+          line-height: 24px;
+          color: #48494b;
+          font-size: 14px;
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  /*Hơn 300 dự án do dất xanh miền bác triển khai*/
+  .gb-hon300duan_datxanhmienbac{
+    .gb_heading_1{
+      text-transform: uppercase;
+      color: #015ea7;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px;
+      strong{
+        color: #f48020;
+      }
+    }
+  }
+
+  /*YẾU TỐ CÔN NGƯỜI TẠO NÊN DỘNG LỰC HO PHÁT TRIỂN*/
+  .gb-yeutoconnguoi_datxanhmienbac{
+    p{
+      display: block;
+      letter-spacing: .2px;
+      line-height: 24px;
+      color: #48494b;
+      font-size: 14px;
+      text-align: justify;
+    }
+    .gb-action7_content{
+      margin-bottom: 30px;
+      a{
+        border: 1px solid #e8e8e8;
+        border-radius: 100%;
+        display: inline-block;
+        color: #999;
+        font-size: 40px;
+        height: 87px;
+        margin-bottom: 20px;
+        text-align: center;
+        text-decoration: none;
+        width: 87px;
+        position: relative;
+        line-height: 87px;
+        &:before{
+          border: 1px solid #e4e4e4;
+          border-radius: 100%;
+          bottom: 0;
+          color: #666;
+          content: "";
+          font-size: 40px;
+          height: 75px;
+          left: 5px;
+          opacity: 0;
+          position: absolute;
+          right: 0;
+          text-align: center;
+          top: 5px;
+          width: 75px;
+          z-index: -1;
+          transform: scale(0);
+          -webkit-transform: scale(0);
+          -moz-transform: scale(0);
+          -ms-transform: scale(0);
+          -o-transform: scale(0);
+        }
+      }
+      p{
+        strong{
+          color: $color-main1;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  /*HOẠT ĐỘNG XA HỘI*/
+  .gb-hoatdongxahoi_datxanhmienbac{
+    .gb_heading_1{
+      width: 100%;
+      text-align: center;
+      margin: 20px 0;
+      h2{
+        text-transform: uppercase;
+        color: #015ea7;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0;
+      }
+      p{
+        letter-spacing: .2px;
+        line-height: 24px;
+        color: #48494b;
+        font-size: 16px;
+        span{
+          color: #c4c4c4;
+        }
+      }
+    }
+    .item{
+      img{
+        width: 100%;
+        height: 197px;
+      }
+    }
+  }
+}

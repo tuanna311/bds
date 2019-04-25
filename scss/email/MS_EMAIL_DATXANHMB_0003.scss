@@ -1,0 +1,36 @@
+.gb-form-lienhe_datxanhmienbac{
+  h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    margin-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  form{
+    label{
+      font-size: 14px;
+      font-weight: 600;
+      text-align: left;
+      color: #333;
+      text-transform: uppercase;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  }
+  .btn-gui{
+    float: right;
+    min-width: 200px;
+    height: 40px;
+    background: $color-main;
+    border: 2px solid $color-main;
+    color: $color-white;
+    border-radius: 0;
+    transition:  all 0.5s;
+    &:hover{
+      background: transparent;
+      color: $color-main;
+    }
+  }
+}

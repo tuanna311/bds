@@ -1,0 +1,47 @@
+/*GƯƠNG MẶT TIÊU BIỀU CỦA DẤT XANH MIỀN BẮC*/
+.gb-guongmattieubieu_datxanhmienbac{
+  .gb_heading_1{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    h2{
+      text-transform: uppercase;
+      color: #015ea7;
+      font-size: 30px;
+    }
+  }
+  p{
+    display: block;
+    letter-spacing: .2px;
+    line-height: 24px;
+    color: #48494b;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .gb_about_tgd_img{
+    img{
+      width: auto !important;
+      height: 200px;
+      margin:  0 auto;
+    }
+    h6{
+      display: block;
+      color: #48494b;
+      font-size: 18px;
+      font-weight: 600;
+      text-align:  center;
+      margin: 10px 0;
+    }
+    span{
+      display: block;
+      letter-spacing: .2px;
+      line-height: 24px;
+      color: #48494b;
+      font-size: 14px;
+      text-align:  center;
+    }
+  }
+  .gb-guongmattieubieu_datxanhmienbac-small{
+    margin-top: 30px;
+  }
+}

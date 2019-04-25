@@ -1,0 +1,41 @@
+.gb-tintuc-category_datxanhmienbac-big{
+  .item-img{
+    img{
+      width: 100%;
+      height: 312px;
+    }
+  }
+  .item-info{
+    padding-top: 10px;
+    h2{
+      a{
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        color: $color-1;
+        line-height: 30px;
+        margin-bottom: 10px;
+      }
+    }
+    p{
+      font-size: 14px;
+      color: $color-grey;
+      line-height: 22px;
+    }
+  }
+}
+.gb-tintuc-category_datxanhmienbac-small{
+  ul{
+    li{
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid $color-border;
+      a{
+        display: block;
+        font-size: 14px;
+        line-height: 21px;
+        color: $color-main;
+      }
+    }
+  }
+}
