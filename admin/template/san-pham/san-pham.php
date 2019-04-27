@@ -118,6 +118,7 @@
             <tr>
                 <th>Trạng thái</th>
                 <th>Tên nhà</th>
+                <th>Thông số</th>
                 <th>Địa chỉ</th>
                 <th>Quận</th>
                 <th>Tên đường</th>
@@ -132,6 +133,7 @@
                     <tr>
                         <td><?= $trang_thai_show[$row['trang_thai']]; ?></td>
                         <td><a href="index.php?page=sua-san-pham&id=<?= $row['product_id']; ?>" title=""><?= $row['product_name']; ?></a></td>
+                        <td><?= $row['thong_so']?></td>
                         <td><?= $row['product_address']; ?></td>
                         <td>
                             <?= $row['quan']!=0 ? $action->getDetail('quan', 'id', $row['quan'])['name'] : '' ?>
